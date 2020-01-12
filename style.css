@@ -1,5 +1,12 @@
+*{
+  font-family: 'Verdana' sans-serif;
+}
+
+nav{
+  grid-row: 1/2;
+}
 ul {
-    background: rgb(252, 250, 250);
+    
     width: 100%;
     margin: 0;
     text-align: center;
@@ -13,7 +20,7 @@ ul {
     text-transform: uppercase;
     color: white;
   }
-  
+/* This was the hover feature i used. simply to change the bg colour when hovering over it*/
   ul li:hover {
     background-color: rgb(190, 235, 248);
   }
@@ -21,5 +28,35 @@ li a{
   color: black;
   text-decoration: none;
 }
+/* all headers and paragraphs aligned*/
+h2{
+  text-align: center;
+  margin: 15vh 0 0 0;
+  grid-row: 2/3;
+}
 
- 
+p{
+  text-align: center;
+  grid-row: 4/5;
+  
+}
+
+body{
+  background-color: rgb(247, 76, 54);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+/*placing my images in grids to make it easier to move them about thanks to what we learnt in our lectures. perk of paying attention :) */
+.hero{
+  grid-row: 3/4;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.hero img{
+  height: 500px;
+  grid-column: 2/3  ;
+
+}
+
+

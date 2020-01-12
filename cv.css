@@ -1,0 +1,40 @@
+ul {
+    
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    color: white;
+  }
+   /* This was the hover feature i used. simply to change the bg colour when hovering over it. keeping it consistent throughout the pages*/
+  ul li:hover {
+    background-color: rgb(190, 235, 248);
+  }
+li a{
+  color: black;
+  text-decoration: none;
+}
+/* gotta make sure the headers and paragraphs are all centred. who would ever want uncentred content? ewww */
+body{
+    background-color: rgb(247, 76, 54);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+  }
+  h2{
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  h1{
+    text-align: center;
+  }
